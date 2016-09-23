@@ -11,6 +11,7 @@ body {
 
 a {
   color: #1e6bb8;
+  font-weight: bold;
   text-decoration: none; }
   a:hover {
     text-decoration: underline; }
@@ -109,8 +110,8 @@ a {
 .main-content img {
   max-width: 100%; }
 .main-content h1, .main-content h2, .main-content h3, .main-content h4, .main-content h5, .main-content h6 {
-  margin-top: 2rem;
-  margin-bottom: 1rem;
+  margin-top: 1rem;
+  margin-bottom: 0.5rem;
   font-weight: normal;
   color: #159957; }
 .main-content p {
@@ -243,3 +244,8 @@ a {
 @media screen and (max-width: 42em) {
   .site-footer {
     font-size: 0.9rem; } }
+
+/*By Me*/
+.cityImages {
+   border: black solid 2px;
+}
