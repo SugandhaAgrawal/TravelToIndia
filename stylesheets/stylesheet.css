@@ -92,7 +92,7 @@ a {
 .project-tagline {
   margin-bottom: 2rem;
   font-weight: normal;
-  opacity: 0.7; 
+  opacity: 0.7;
     margin-top: 10px;
 	color: #000000;
 }
@@ -181,7 +181,7 @@ a {
   .main-content blockquote > :last-child {
     margin-bottom: 0; }
 .main-content table {
-  display: block;
+  /*display: block;*/
   width: 100%;
   overflow: auto;
   word-break: normal;
@@ -252,6 +252,9 @@ a {
 /*By Me*/
 .cityImages {
    border: black solid 2px;
+   max-width: 100%;
+   max-height: 100%;
+
 }
 
 h3.mainHeading, .mainDate, .mainCity {
@@ -269,5 +272,5 @@ background-image: url("../Images/trial.jpg");
 
 body{
   background-color: #FFB56D;
-  
+
 }
